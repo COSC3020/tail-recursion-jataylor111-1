@@ -18,3 +18,14 @@ Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not, and what is the complexity
 (worst-case $\Theta$)? Add your answer, including your reasoning, to this
 markdown file.
+
+---------------------------------------------------------------------------------
+
+
+
+
+As you could probably tell the slides were quite helpful in making this 
+
+I knew how the fibonnaci sequence worked already, but reading through this helped me think about how I would implement the tail recursive version (https://en.wikipedia.org/wiki/Fibonacci_sequence)
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
