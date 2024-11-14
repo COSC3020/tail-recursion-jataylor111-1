@@ -31,7 +31,7 @@ $T(n) = T(n - 3) + 3$
 
 $T(n) = T(n - i) + i$
 
-for $T(n)$, $n - i = 1$ = $-i = 1 - n$ = $i = n - 1$
+for $T(n)$, $n - i = 1 \rightarrow -i = 1 - n \rightarrow i = n - 1$
 
 next, $T(n) = 1 + n - 1$ = $T(n) = n$, so $\Theta(n)$
 
