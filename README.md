@@ -31,9 +31,9 @@ $T(n) = T(n - 3) + 3$
 
 $T(n) = T(n - i) + i$
 
-for $T(n)$, $n - i = 1 \rightarrow -i = 1 - n \rightarrow i = n - 1$
+now, $n - i = 1 \rightarrow -i = 1 - n \rightarrow i = n - 1$
 
-next, $T(n) = 1 + n - 1$ = $T(n) = n$, so $\Theta(n)$
+next, $T(n) = T(1) + n - 1$ = $1 + n - 1$ = $T(n) = n$, so $\Theta(n)$
 
 now this is quite different than the usual time complexity, which, according to medium, is $2^n$.  This means that a tail recursive fibonacci function is significantly more efficient than a non-tail recursive one.
 
